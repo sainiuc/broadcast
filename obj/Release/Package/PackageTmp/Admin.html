@@ -1,0 +1,41 @@
+﻿<html>
+<body>
+    <script type="text/javascript" src="../Scripts/jquery-1.6.4.js"></script>
+    <script type="text/javascript" src="../Scripts/jquery.signalR-0.5.3.js"></script>
+    <script type="text/javascript" src="../signalr/hubs"></script>
+    <form id="form1" runat="server">
+    <div>
+        <script type="text/javascript">
+            var chat;
+            $(function () {
+                // Created proxy
+                chat = $.connection.myChat;
+
+                // Assign a function to be called by the server
+                chat.addMessage = onAddMessage;
+
+                // Register a function with the button click
+                $("#broadcast").click(onBroadcast);
+
+                // Start the connection
+                $.connection.hub.start();
+            });
+
+            function onAddMessage(message) {
+                // Add the message to the list
+                $('#messages').append('<li>' + message + '</li>');
+            }
+
+            function onBroadcast() {
+                // Call the chat method on the server
+                chat.send($('#message').val());
+            }
+        </script>
+        <input type="text" id="message" />
+        <input type="button" id="broadcast" value="Send" />
+        <ul id="messages">
+        </ul>
+    </div>
+    </form>
+</body>
+</html>

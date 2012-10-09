@@ -1,0 +1,14 @@
+c:\documents and settings\ssainiuc\my documents\visual studio 2010\Projects\SignalR\SignalR\bin\SignalR.dll
+c:\documents and settings\ssainiuc\my documents\visual studio 2010\Projects\SignalR\SignalR\bin\Microsoft.Web.Infrastructure.dll
+c:\documents and settings\ssainiuc\my documents\visual studio 2010\Projects\SignalR\SignalR\bin\Newtonsoft.Json.dll
+c:\documents and settings\ssainiuc\my documents\visual studio 2010\Projects\SignalR\SignalR\bin\SignalR.Hosting.AspNet.dll
+c:\documents and settings\ssainiuc\my documents\visual studio 2010\Projects\SignalR\SignalR\bin\SignalR.Hosting.Common.dll
+c:\documents and settings\ssainiuc\my documents\visual studio 2010\Projects\SignalR\SignalR\bin\Newtonsoft.Json.xml
+c:\documents and settings\ssainiuc\my documents\visual studio 2010\Projects\SignalR\SignalR\bin\SignalR.xml
+c:\documents and settings\ssainiuc\my documents\visual studio 2010\Projects\SignalR\SignalR\bin\SignalR.Hosting.AspNet.xml
+c:\documents and settings\ssainiuc\my documents\visual studio 2010\Projects\SignalR\SignalR\bin\SignalR.Hosting.Common.xml
+c:\documents and settings\ssainiuc\my documents\visual studio 2010\Projects\SignalR\SignalR\obj\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\ssainiuc\my documents\visual studio 2010\Projects\SignalR\SignalR\bin\BroadCast.dll
+c:\documents and settings\ssainiuc\my documents\visual studio 2010\Projects\SignalR\SignalR\bin\BroadCast.pdb
+c:\documents and settings\ssainiuc\my documents\visual studio 2010\Projects\SignalR\SignalR\obj\Debug\BroadCast.dll
+c:\documents and settings\ssainiuc\my documents\visual studio 2010\Projects\SignalR\SignalR\obj\Debug\BroadCast.pdb
